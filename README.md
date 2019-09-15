@@ -12,3 +12,7 @@ Verifpal language support for [micro](https://micro-editor.github.io/) editor
 
 - verifpal syntax highlighting
 - run model verification inside editor by `Ctrl-B`
+
+## Screenshot
+
+![screenshot](example.png)
