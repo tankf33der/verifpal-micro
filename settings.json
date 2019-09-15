@@ -1,0 +1,8 @@
+{
+	"*.vp": {
+		"filetype": "verifpal"
+	},
+	"autoclose": true,
+	...,
+	...
+}
