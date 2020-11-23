@@ -1,4 +1,4 @@
-# Verifpal Language Support for Micro 2.x
+# Verifpal Language Support for Micro 2.0.x
 
 Verifpal language support for [micro](https://micro-editor.github.io/) editor
 
