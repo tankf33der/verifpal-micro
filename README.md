@@ -15,4 +15,6 @@ Verifpal language support for [micro](https://micro-editor.github.io/) editor
 
 ## Screenshot
 
+In default color scheme:
+
 ![screenshot](example.png)
