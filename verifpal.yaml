@@ -6,7 +6,7 @@ detect:
 rules:
     - special: "(active|passive|knows|generates|leaks)"
     - symbol.brackets: "[(){}]|\\[|\\]"
-    - constant.bool: "(nil|\\?|\\->)"
+    - constant.bool: "(nil|\\?|\\->|\\^)"
     - identifier: "\\b(BLIND|UNBLIND|RINGSIGN|RINGSIGNVERIF|PW_HASH|HASH|HKDF|AEAD_ENC|AEAD_DEC|ENC|DEC|MAC|ASSERT|CONCAT|SPLIT|SIGN|SIGNVERIF|PKE_ENC|PKE_DEC|SHAMIR_SPLIT|SHAMIR_JOIN)\\b"
     - statement: "(attacker|principal|queries|phase|confidentiality|authentication|freshness|unlinkability|precondition)"
     - comment:
