@@ -1,8 +1,15 @@
+local config = import("micro/config")
+local shell = import("micro/shell")
+local log = import("micro/log")
+
 function runme()
-    local buf = CurView().Buf -- The current buffer
-	buf:Save()
+    local buf = bp.Buf
+	 buf:Save()
     if buf:FileType() == "verifpal" then
-		HandleShellCommand("verifpal verify .. " buf.Path, true, true)
+        shell.RunInteractiveShell("verifpal verify .. " buf.Path, true, false)
     end
 end
-BindKey("CtrlR", "init.runme")
+
+function init()
+    config.TryBindKey("CtrlR", "lua:initlua.runme", true)
+end

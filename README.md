@@ -1,4 +1,4 @@
-# Verifpal Language Support for Micro
+# Verifpal Language Support for Micro 2.x
 
 Verifpal language support for [micro](https://micro-editor.github.io/) editor
 
@@ -11,7 +11,7 @@ Verifpal language support for [micro](https://micro-editor.github.io/) editor
 ## Features
 
 - verifpal syntax highlighting
-- run model verification inside editor by `Ctrl-B`
+- run model verification inside editor by `Ctrl-R`
 
 ## Screenshot
 
