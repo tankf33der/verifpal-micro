@@ -1,6 +1,7 @@
 {
 	"*.vp": {
-		"filetype": "verifpal"
+		"filetype": "verifpal",
+		"commenttype": "// %s"
 	},
 	"autoclose": true,
 	...,
